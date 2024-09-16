@@ -1,12 +1,11 @@
-function Header(props) {
-  const { title } = props;
+const Header = () => {
   return (
-    <header className="flex justify-center items-center w-full h-[80px] bg-[#F5F5F5] border-b">
-      <div className="text-3xl text-center text-[#247BA0]">
-        Primer sitio web - {title}
-      </div>
+    <header className="bg-gray-800 text-white p-4 flex justify-between items-center">
+      <h1 className="text-lg">Planeación Estratégica</h1>
+      <input type="text" className="rounded-lg p-2" placeholder="Buscar..." />
     </header>
   );
-}
+};
+
 
 export default Header;

@@ -1,93 +1,48 @@
-export const features = [
-  {id: 10, feature: "Componentes Reutilizables: React permite la creación de componentes modulares que se pueden reutilizar en diferentes partes de tu aplicación, mejorando la eficiencia y el mantenimiento del código."},
-  {id: 20, feature: "Actualizaciones Eficientes: Gracias a su virtual DOM, React actualiza solo las partes de la interfaz que han cambiado, lo que hace que las aplicaciones sean más rápidas y reactivas."},
-  {id: 30, feature: "Gran Comunidad y Ecosistema: React cuenta con una vasta comunidad de desarrolladores y una gran cantidad de librerías y herramientas que facilitan la creación de aplicaciones complejas."},
-  {id: 40, feature: "Desarrollo Fácil de Aplicaciones Web y Móviles: Con herramientas como React Native, puedes desarrollar aplicaciones móviles utilizando los mismos principios y conocimientos que usas en la web."},
-]
-
-export const topics = [
+export const swotData = [
   {
     id: 1,
-    name: "Introducción a React",
-    description: "Fundamentos de React, incluyendo qué es, cómo funciona y cómo configurar un proyecto básico.",
-    level: "básico",
+    type: "Strengths",
+    items: [
+      { id: 1, title: "Strong Brand Recognition", description: "The company has a well-established and recognized brand." },
+      { id: 2, title: "Skilled Workforce", description: "Highly skilled and experienced team members." },
+      { id: 3, title: "Robust Financial Position", description: "Strong financial health and stability." },
+    ],
   },
   {
     id: 2,
-    name: "JSX (JavaScript XML)",
-    description: "Aprender la sintaxis de JSX que permite combinar HTML y JavaScript para crear componentes de forma clara.",
-    level: "básico",
+    type: "Weaknesses",
+    items: [
+      { id: 1, title: "Lack of Resources", description: "Limited resources available for development and growth." },
+      { id: 2, title: "Inefficient Processes", description: "Current processes are not optimized, leading to inefficiencies." },
+      { id: 3, title: "Low Employee Morale", description: "Employees are experiencing low motivation and job satisfaction." },
+    ],
+
   },
   {
     id: 3,
-    name: "Componentes Funcionales y de Clase",
-    description: "Crear y entender los componentes de clase y funcionales, incluyendo sus diferencias y usos.",
-    level: "básico",
+    type: "Opportunities",
+    items: [
+      { id: 1, title: "Market Expansion", description: "Potential to enter new markets and reach a wider audience." },
+      { id: 2, title: "Technological Advancements", description: "Opportunities to leverage new technologies to improve operations." },
+      { id: 3, title: "Strategic Partnerships", description: "Possibility to form partnerships that could enhance business capabilities." },
+    ],
   },
   {
     id: 4,
-    name: "Props y Estado",
-    description: "Gestión de propiedades y estado en los componentes para manejar datos y actualizar la UI de forma dinámica.",
-    level: "básico",
+    type: "Threats",
+    items: [
+      { id: 1, title: "Competitive Pressure", description: "Intense competition from other companies in the industry." },
+      { id: 2, title: "Economic Downturn", description: "Potential negative impact of economic instability on business operations." },
+      { id: 3, title: "Regulatory Changes", description: "Possible changes in regulations that could affect the business." },
+    ],
   },
-  {
-    id: 5,
-    name: "Ciclo de Vida de los Componentes",
-    description: "Comprender los métodos del ciclo de vida de los componentes y cómo usarlos para controlar la actualización y desmontaje.",
-    level: "intermedio",
-  },
-  {
-    id: 6,
-    name: "Hooks",
-    description: "Introducción a los hooks, incluyendo useState, useEffect y otros hooks personalizados para manejar lógica de estado en componentes funcionales.",
-    level: "intermedio",
-  },
-  {
-    id: 7,
-    name: "Manejo de Formularios",
-    description: "Cómo crear y gestionar formularios en React, validaciones, y control de entradas de usuario.",
-    level: "intermedio",
-  },
-  {
-    id: 8,
-    name: "React Router",
-    description: "Navegación y enrutamiento en aplicaciones React para crear rutas y gestionar vistas.",
-    level: "intermedio",
-  },
-  {
-    id: 9,
-    name: "Context API",
-    description: "Gestión de estado global usando Context API para compartir datos entre componentes sin prop drilling.",
-    level: "intermedio",
-  },
-  {
-    id: 10,
-    name: "Renderizado Condicional y Listas",
-    description: "Cómo renderizar contenido de forma condicional y manejar listas de datos en la interfaz.",
-    level: "básico",
-  },
-  {
-    id: 11,
-    name: "Optimización de Rendimiento",
-    description: "Mejorar el rendimiento de las aplicaciones con técnicas como memoización, lazy loading y react.memo.",
-    level: "avanzado",
-  },
-  {
-    id: 12,
-    name: "Manejo de Estado con Redux",
-    description: "Integración de Redux para una gestión avanzada de estado en aplicaciones grandes y complejas.",
-    level: "avanzado",
-  },
-  {
-    id: 13,
-    name: "Testing en React",
-    description: "Escribir pruebas para componentes de React utilizando Jest, React Testing Library o Enzyme.",
-    level: "avanzado",
-  },
-  {
-    id: 14,
-    name: "React con TypeScript",
-    description: "Uso de TypeScript en React para agregar tipado estático y mejorar la mantenibilidad del código.",
-    level: "avanzado",
-  },
+];
+
+
+
+export const objectives = [
+  { id: 1000, goal: "Objetivo 1", target: 500, progress: 250, compliance: 50 },
+  { id: 1001, goal: "Objetivo 2", target: 1000000, progress: 50000, compliance: 5 },
+  { id: 1002, goal: "Objetivo 3", target: 1000, progress: 900, compliance: 90 },
+  { id: 1003, goal: "Objetivo 4", target: 150000, progress: 150000, compliance: 100 }
 ];
