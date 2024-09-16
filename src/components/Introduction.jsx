@@ -1,14 +1,15 @@
 const Introduction = () => {
-    return (
-      <section className="p-6">
-        <h2 className="text-2xl font-bold mb-4 text-center">Introduction</h2>
-        <p>
-        Welcome to [Your Company/Organization Name], where innovation meets excellence. We are dedicated to providing top-notch solutions and services designed to meet your needs and exceed your expectations.
-        Our platform offers a range of features and resources tailored to support your goals and drive success. Whether you're looking for [specific services or products], seeking expert insights, or exploring new opportunities, you've come to the right place.
-        Explore our site to discover how we can assist you in achieving your objectives. From our latest updates and offerings to detailed information about our services, you'll find everything you need to make informed decisions and stay ahead in a competitive landscape.
-        </p>
-      </section>
-    );
-  };
-  
-  export default Introduction;
+  return (
+    <section className="p-6">
+      <h2 className="text-2xl font-bold mb-4 text-center">Introduction</h2>
+      <p>
+        Welcome to Zenith, where cutting-edge technology seamlessly blends with precision craftsmanship. At Zenith, we are dedicated to pushing the boundaries of personal computing by creating laptops that not only excel in performance but also embody reliability and innovation. Whether you are seeking a robust machine for professional tasks, a creative powerhouse for your artistic endeavors, or an immersive entertainment hub, our laptops are meticulously engineered to cater to all your needs.
+      </p>
+      <p className="mt-4">
+        Our range of laptops is equipped with industry-leading processors, ultra-high-resolution displays, and elegant, sleek designs that speak to the future of technology. At Zenith, we understand that quality and performance are paramount, and our commitment to excellence ensures that you are always a step ahead in the dynamic and fast-paced digital landscape.
+      </p>
+    </section>
+  );
+};
+
+export default Introduction;

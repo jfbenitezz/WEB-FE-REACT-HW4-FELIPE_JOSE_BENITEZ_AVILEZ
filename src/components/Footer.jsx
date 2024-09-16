@@ -42,13 +42,13 @@ const Footer = () => {
           <h2 className="font-bold text-lg">Contact</h2>
           <ul className="space-y-2 mt-2">
             <li>Phone: (555) 123-4567</li>
-            <li>Email: support@pinnacle-semi.com</li>
+            <li>Email: support@Zenith.com</li>
             <li>Address: 123 Silicon Way, Tech City</li>
           </ul>
         </div>
       </div>
       <div className="mt-8 text-center">
-        <p className="text-sm">&copy; {new Date().getFullYear()} Pinnacle Semiconductors. All Rights Reserved.</p>
+        <p className="text-sm">&copy; {new Date().getFullYear()} Zenith. All Rights Reserved.</p>
       </div>
     </footer>
   );

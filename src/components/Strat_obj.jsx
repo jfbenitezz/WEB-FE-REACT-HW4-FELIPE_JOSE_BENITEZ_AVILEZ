@@ -21,10 +21,10 @@ const ObjectivesTable = ({ objectives }) => {
 
             return (
               <tr key={objective.id}>
-                <td className="border p-2">{objective.id}</td>
+                <td className="border p-2 text-center">{objective.id}</td>
                 <td className="border p-2">{objective.goal}</td>
-                <td className="border p-2">$ {objective.target}</td>
-                <td className="border p-2">$ {objective.progress}</td>
+                <td className="border p-2">$ {objective.target.toLocaleString()}</td>
+                <td className="border p-2">$ {objective.progress.toLocaleString()}</td>
                 <td className="border p-2 text-center">{objective.compliance}%</td>
                 <td className={`border p-2 ${statusColor} text-center`}>
    

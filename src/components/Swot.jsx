@@ -9,7 +9,7 @@ const SWOTSection = ({ type, items }) => {
         {items.map((item) => (
           <li key={item.id}>
             <h3 className="font-semibold">{item.title}</h3>
-            <p>{item.description}</p></li>
+            <p className="mb-1">{item.description}</p></li>
         ))}
       </ul>
     </div>
