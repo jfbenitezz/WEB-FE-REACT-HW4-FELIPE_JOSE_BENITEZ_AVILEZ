@@ -3,7 +3,8 @@ import React from 'react';
 const Footer = () => {
   return (
     <footer className="bg-gray-900 text-white p-8">
-      <div className="container mx-auto grid grid-cols-4 gap-8">
+      {/* Responsive shirnks to one column */}
+      <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
         {/* Site map column */}
         <div>
           <h2 className="font-bold text-lg">Site Map</h2>
@@ -19,9 +20,9 @@ const Footer = () => {
         <div>
           <h2 className="font-bold text-lg">Our Products</h2>
           <ul className="space-y-2 mt-2">
-            <li><a href="#processors" className="hover:underline">Processors</a></li>
-            <li><a href="#memory" className="hover:underline">Memory Chips</a></li>
-            <li><a href="#sensors" className="hover:underline">Sensors</a></li>
+            <li><a href="#processors" className="hover:underline">Laptops</a></li>
+            <li><a href="#memory" className="hover:underline">Screens</a></li>
+            <li><a href="#sensors" className="hover:underline">Acessories</a></li>
             <li><a href="#custom" className="hover:underline">Custom Solutions</a></li>
           </ul>
         </div>
