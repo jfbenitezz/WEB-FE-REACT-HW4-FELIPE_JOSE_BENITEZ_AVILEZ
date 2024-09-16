@@ -4,11 +4,11 @@ import React from 'react';
 const SWOTSection = ({ type, items }) => {
   return (
     <div className="border p-4">
-      <h3 className="font-semibold text-lg text-center">{type}</h3>
+      <h3 className="font-semibold text-2xl text-center">{type}</h3>
       <ul className="list-decimal ml-4 mt-2">
         {items.map((item) => (
           <li key={item.id}>
-            <h3 className="font-semibold">{item.title}</h3>
+            <h3 className=" text-lg font-semibold">{item.title}</h3>
             <p className="mb-1">{item.description}</p></li>
         ))}
       </ul>
@@ -21,7 +21,7 @@ const SWOT = ({ data }) => {
   return (
     <section className="py-8">
       <h2 className="text-2xl font-bold ml-4">1. Current Diagnosis </h2>
-      <div className="grid grid-cols-2 gap-8 mt-4 ml-4 mr-4">
+      <div className="grid grid-cols-2 gap-8 mt-4 ml-4 mr-4 ">
         {data.map((dofa) => (
           <SWOTSection key={dofa.id} type={dofa.type} items={dofa.items} />
         ))}
