@@ -44,5 +44,8 @@ export const objectives = [
   { id: 1000, goal: "Objetivo 1", target: 500, progress: 250, compliance: 50 },
   { id: 1001, goal: "Objetivo 2", target: 1000000, progress: 50000, compliance: 5 },
   { id: 1002, goal: "Objetivo 3", target: 1000, progress: 900, compliance: 90 },
-  { id: 1003, goal: "Objetivo 4", target: 150000, progress: 150000, compliance: 100 }
+  { id: 1004, goal: "Objetivo 4", target: 1200, progress: 600, compliance: 50 },
+  { id: 1003, goal: "Objetivo 5", target: 150000, progress: 150000, compliance: 100 },
+  { id: 1005, goal: "Objetivo 6", target: 2000, progress: 1000, compliance: 50 },
+  { id: 1006, goal: "Objetivo 7", target: 50000, progress: 40000, compliance: 80 }
 ];
